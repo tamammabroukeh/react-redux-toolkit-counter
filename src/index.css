@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Courier New", Courier, monospace;
+}
+div.center {
+  position: relative;
+  height: 100vh;
+}
+div section {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  /* transform: translate(-50%, -50%); */
+}
+div section p {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+div section button {
+  padding: 10px;
+  margin-right: -10px;
+  margin: 10px;
+}
+input[type="text"] {
+  padding: 5px 10px;
+  margin-left: 10px;
+  font-size: 20px;
+}
